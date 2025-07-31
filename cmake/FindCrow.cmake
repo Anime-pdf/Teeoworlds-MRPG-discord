@@ -5,7 +5,7 @@ find_path(CROW_INCLUDEDIR
 )
 
 include(FindPackageHandleStandardArgs)
-find_package_handle_standard_args(Crow DEFAULT_MSG CROW_INCLUDEDIR)
+find_package_handle_standard_args(CROW DEFAULT_MSG CROW_INCLUDEDIR)
 
 mark_as_advanced(CROW_INCLUDEDIR)
 
