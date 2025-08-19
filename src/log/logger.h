@@ -8,7 +8,7 @@
 
 #include <utility/utils.h>
 
-enum LogLevel
+enum class LogLevel
 {
     Trace = 0,
     Debug,
