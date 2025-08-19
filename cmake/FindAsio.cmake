@@ -5,7 +5,7 @@ find_path(ASIO_INCLUDEDIR
 )
 
 include(FindPackageHandleStandardArgs)
-find_package_handle_standard_args(ASIO DEFAULT_MSG ASIO_INCLUDEDIR)
+find_package_handle_standard_args(Asio DEFAULT_MSG ASIO_INCLUDEDIR)
 
 mark_as_advanced(ASIO_INCLUDEDIR)
 

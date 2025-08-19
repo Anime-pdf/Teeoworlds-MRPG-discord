@@ -5,7 +5,7 @@ find_path(ZLIB_INCLUDEDIR
 )
 
 include(FindPackageHandleStandardArgs)
-find_package_handle_standard_args(ZLIB DEFAULT_MSG ZLIB_INCLUDEDIR)
+find_package_handle_standard_args(Zlib DEFAULT_MSG ZLIB_INCLUDEDIR)
 
 mark_as_advanced(ZLIB_INCLUDEDIR)
 

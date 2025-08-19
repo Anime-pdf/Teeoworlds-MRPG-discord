@@ -32,7 +32,7 @@ find_path(OPENSSL_INCLUDEDIR
 
 # mark found
 include(FindPackageHandleStandardArgs)
-find_package_handle_standard_args(OPENSSL DEFAULT_MSG OPENSSL_CRYPTO_LIBRARY OPENSSL_INCLUDEDIR)
+find_package_handle_standard_args(OpenSSL DEFAULT_MSG OPENSSL_CRYPTO_LIBRARY OPENSSL_INCLUDEDIR)
 mark_as_advanced(OPENSSL_CRYPTO_LIBRARY OPENSSL_INCLUDEDIR)
 
 # so that we have the same variables for all searches
