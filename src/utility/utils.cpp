@@ -1,5 +1,8 @@
 #include "utils.h"
 
+#include <sstream>
+#include <iomanip>
+
 inline std::string rtrim(std::string s)
 {
     s.erase(s.find_last_not_of(" \t\n\r\f\v") + 1);

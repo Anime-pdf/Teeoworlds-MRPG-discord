@@ -2,7 +2,6 @@
 #define UTILITY_UTILS_H
 
 #include <string>
-#include <ctime>
 
 inline std::string rtrim(std::string s);
 inline std::string ltrim(std::string s);
