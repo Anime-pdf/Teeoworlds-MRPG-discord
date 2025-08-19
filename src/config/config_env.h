@@ -24,7 +24,7 @@ public:
             return Fallback;
         try {
             return std::stoi(TmpRes.value());
-        } catch (std::exception e) {
+        } catch (std::exception &e) {
             return Fallback;
         }
     };
@@ -35,7 +35,7 @@ public:
             return Fallback;
         try {
             return std::stoll(TmpRes.value());
-        } catch (std::exception e) {
+        } catch (std::exception &e) {
             return Fallback;
         }
     }
